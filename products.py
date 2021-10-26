@@ -3,7 +3,6 @@ class Product:
         self.name = name
         self.price = price
         self.category = category
-        self.id = id
 
     def update_price(self, percent_change, is_increased=False):
         if is_increased:
